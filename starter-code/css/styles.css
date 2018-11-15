@@ -1,4 +1,122 @@
 /* Custom Stylesheet */
 * {
-    background: #eee;
+    font-family: 'Roboto', sans-serif;
+    color: #494F4F;
+}
+
+body{
+    
+    
+}
+
+header {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    
+}
+
+header > h1 {
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.img_txt {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+}
+
+header > nav > ul > li {
+    list-style: none;
+    display: inline;
+    padding-left: 16%;
+    font-weight: bold;
+   
+}
+
+header > nav > ul > li > a {
+    color: #4E9A9C;
+    font-weight: bold;
+    text-align: center;
+}
+
+header > img {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 5px auto;
+}
+
+main > img {
+    width: 100%;
+}
+
+main > p{
+    width: 100%;
+}
+
+article {
+    width: 80%;
+    margin: 5px auto; 
+    padding-top: 30px;
+
+}
+
+aside {
+    width: 80%;
+    margin: 5px auto;
+    padding-top: 30px;
+
+}
+
+aside > ul > li > a {
+    color: #4E9A9C;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+footer {
+    
+    background: #BCE4E5;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer > ul > li {
+    padding-top: 15px;
+    list-style: none;
+    display: inline;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+footer > ul {
+    padding-top: 45px;
+}
+
+footer > p {
+    padding-bottom: 20px;
+   
+}
+
+footer > a {
+    font-weight: bold;
+}
+
+footer > hr {
+    margin-top: 60px;
+    border-width: 2px;
+    color: #494F4F;
+    border-style: inset;
+    /* display: block; */
 }
