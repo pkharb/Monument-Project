@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    /* width: 100%; */
+
  
 }
 
@@ -23,9 +23,6 @@ header > nav {
 
 .top_img {
     position: relative;
-    /* clear: both; */
-    
-    
 } 
 
 header > h1 {
@@ -155,6 +152,10 @@ footer > hr {
     color: #494F4F;
     border-style: inset;
     /* display: block; */
+}
+
+form {
+    margin-top: 15px;
 }
 
 form > input {
