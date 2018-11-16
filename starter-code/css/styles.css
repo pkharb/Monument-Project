@@ -4,24 +4,33 @@
     color: #494F4F;
 }
 
-header {
-    width: 100%;
+body {
+    margin-top: 0;
+}
 
+header {
+    /* width: 100%; */
+ 
 }
 
 header > nav {
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: #fff;
+    display: inline-block;
 }
 
 .top_img {
     position: relative;
-    clear: both;
+    /* clear: both; */
+    
     
 } 
 
 header > h1 {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 12px;
     font-weight: bold;
     
     
@@ -35,10 +44,9 @@ header > h1 {
 
 header > nav > ul > li {
     list-style: none;
-    display: inline-block;
+    display: inline;
     padding-left: 16%;
     font-weight: bold;
-   
 }
 
 header > nav > ul > li > a {
@@ -50,6 +58,8 @@ header > nav > ul > li > a {
 
 header > img {
     width: 100%;
+    margin-top: 65px;
+    clear: both;
 }
 
 a{
