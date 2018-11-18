@@ -8,6 +8,14 @@ body {
     margin-top: 0;
 }
 
+.social-icon{
+    width: 50px; 
+    height: 150px; 
+    position: fixed; 
+    top:65%; 
+    right: 0;
+}
+
 header > nav {
     width: 100%;
     position: fixed;
@@ -62,14 +70,18 @@ main {
     margin: 5px auto;
 }
 
-.main_one {
+.main-wrapper {
     display: flex;
     justify-content: row;
     font-family: 'Raleway', sans-serif;
 }
 
-.main_one_b {
-    margin-right: 5px;
+.main-box-1{
+   
+}
+
+.main-box-2 {
+    padding-right: 3em;
 }
 
 main > img {
@@ -112,6 +124,21 @@ aside > ul > li > a {
 
 }
 
+.go-top{
+    width: 50px; 
+    height: 30px; 
+    /* background-color: #203356; */
+    position: fixed; 
+    bottom:5%; 
+    right: 1%;
+    
+    padding-top: 10px;
+}
+.button-center{
+ 
+ text-align: center;
+}
+
 footer {
     
     background: #BCE4E5;
@@ -119,7 +146,8 @@ footer {
     text-align: center;
 }
 
-footer > ul > li {
+/* brought social media to right of screen */
+/* footer > ul > li {
     padding-top: 15px;
     list-style: none;
     display: inline;
@@ -129,7 +157,7 @@ footer > ul > li {
 
 footer > ul {
     padding-top: 45px;
-}
+} */
 
 footer > p {
     padding-bottom: 20px;
@@ -141,7 +169,7 @@ footer > a {
 }
 
 footer > hr {
-    margin-top: 60px;
+    margin-top: 30px;
     border-width: 2px;
     color: #494F4F;
     border-style: inset;
@@ -213,10 +241,10 @@ footer > hr {
 }
 
 
-
 /* Form 2 in footer */
 #f2 {
-    margin-top: 15px;
+    padding-top: 25px;
+    text-align: center;
 }
 
 #f2 > input {
@@ -231,7 +259,7 @@ footer > hr {
 #f2 > button {
     width: 140px;
     height: 32px;
-    text-align: center;
+    /* text-align: center; */
     border: 2px solid #000;
     background: #BCE4E5;
     font-weight: bold;
@@ -251,7 +279,40 @@ footer > hr {
 @media only screen and (max-width: 750px) {
 
 /* navbar */
+/* header > nav > ul > li {
+    display: none;
+    float: left;
+} */
 
+header > nav {
+    /* display: none; */
+}
+
+.social-icon{
+    width: 25px; 
+    height: 75px; 
+    position: fixed; 
+    top:45%; 
+    right: 2%;
+}
+
+header > ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+header > nav > ul > li {
+    display: inline-block;
+    padding-left: 0;
+    float: left;
+    font-weight: bold;
+}
+
+header > nav > ul > li > a {
+  
+
+}
 
 /* header */
 header > h1 {
@@ -268,7 +329,7 @@ header > h1 {
 }
 
 /* main  */
-.main_one {
+.main-wrapper {
     display: grid;
     justify-content: column;
 }
@@ -301,9 +362,9 @@ footer {
     margin-top: 15px;
 }
 
-footer ul {
+/* footer ul {
     text-align: center;
-}
+} */
 
 #f2 {
     margin-top: 15px;
