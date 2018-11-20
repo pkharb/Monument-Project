@@ -131,6 +131,11 @@ aside h2,h3{
 
 .gallery img {
     width: 100%;
+    filter: brightness(40%);
+}
+
+.gallery img:hover {
+    filter: brightness(100%);
 }
 
 
